@@ -1,3 +1,5 @@
 export const refs = {
-    productsLists:document.querySelector("#allProducts")
-}
+  productsLists: document.querySelector('#allProducts'),
+  singleProductForm: document.querySelector('#singleProductForm'),
+  singleProduct: document.querySelector('#singleProduct'),
+};
