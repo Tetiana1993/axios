@@ -10,7 +10,13 @@ async function getById(id) {
   return result.data;
 }
 
+async function add(data) {
+  const result = await apiInstance.post(`/products/add`, data);
+  return result.data;
+}
+
 export const productsApi = {
   getAll,
   getById,
+  add,
 };
